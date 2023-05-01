@@ -29,8 +29,6 @@ body {
   font-size: 1.6rem;
 
   color: var(--WHITE);
-
-  transition: all 300ms ease;
 }
 
 .backgroundHome {

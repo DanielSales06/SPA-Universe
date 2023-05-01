@@ -36,18 +36,21 @@ body {
 .backgroundHome {
   background: url("assets/mountains-universe-1.png") no-repeat;
   background-size: cover;
+  background-position: center;
   background-color: #000506;
 }
 
 .backgroundExploration {
   background: url("assets/mountains-universe02.png") no-repeat;
   background-size: cover;
+  background-position: center;
   background-color: #000506;
 }
 
 .backgroundUniverse {
   background: url("assets/mountains-universe-3.png") no-repeat;
   background-size: cover;
+  background-position: center;
   background-color: #000506;
 }
 

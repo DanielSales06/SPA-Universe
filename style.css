@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --WHITE: #FFFFFF;
+  --GRAY-100: #E1E1E6;
+  --GRAY-200: #8D8D99;
+  --BLUE: #02799D;
+}
+
+.Container {
+  max-width: 128rem;
+  min-height: 100vh;
+  margin: 0 auto;
+
+  padding: 4rem 1rem;
+}
+
+body, button, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+
+  color: var(--WHITE);
+
+  transition: all 300ms ease;
+}
+
+.backgroundHome {
+  background: url("assets/mountains-universe-1.png") no-repeat;
+  background-size: cover;
+  background-color: #000506;
+}
+
+.backgroundExploration {
+  background: url("assets/mountains-universe02.png") no-repeat;
+  background-size: cover;
+  background-color: #000506;
+}
+
+.backgroundUniverse {
+  background: url("assets/mountains-universe-3.png") no-repeat;
+  background-size: cover;
+  background-color: #000506;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(1.6rem, 4vw, 3.2rem);
+}
+
+a {
+  font-weight: 700;
+  font-size: clamp(1.6rem, 5vw, 2.4rem);
+  line-height: 2.2rem;
+
+  text-decoration: none;
+  color: var(--GRAY-200);
+
+  transition: all 400ms ease;
+}
+
+.on{
+  color: var(--WHITE);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: clamp(4rem, 10vw,4.8rem);
+  line-height: 125%;
+
+  color: var(--GRAY-100);
+}
+
+p {
+  font-size: clamp(1.6rem, 3vw, 1.8rem);
+  line-height: 160%;
+
+  color: var(--GRAY-100);
+}
+
+.button {
+  padding: 1.2rem 3.2rem;
+
+  width: 100%;
+  height: 4.8rem;
+
+  border: .2rem solid var(--WHITE);
+  border-radius: .5rem;
+
+  background-color: transparent;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: var(--WHITE);
+
+  cursor: pointer;
+
+  transition: all 400ms ease;
+}
+
+.button:hover {
+  background-color: var(--WHITE);
+
+  color: var(--BLUE);
+}
+
+.Home,
+.Error {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: 2.4rem;
+
+  text-align: center;
+
+  height: 82vh;
+}
+
+.Home h1 {
+  text-align: center;
+}
+
+.Universe,
+.Exploration {
+  margin-top: 10rem;
+
+  max-width: 64.8rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  padding: 0 1rem;
+}
+
+
+
+
+
